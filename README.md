@@ -2,6 +2,8 @@
 
 **Practice project with example data.** The brief comes from a career coaching business (Vanta). Every number in this repository is made-up example data, built to match the totals in the brief. None of it is real Vanta data.
 
+![Dashboard](dashboard/dashboard.png)
+
 ## The question
 
 Which job-search habits lead to interviews, and which clients are at risk of going quiet?
@@ -68,7 +70,7 @@ A rule simple enough for a coach to use without a model: **fewer than 5 applicat
 | Cleaning, funnel, habits, at-risk model | Python (pandas, scikit-learn) | `notebooks/analysis.ipynb` |
 | The same analysis in SQL | SQL (SQLite) | `sql/queries.sql` |
 | Spreadsheet model with live formulas and charts | Excel (COUNTIFS, SUMIF, SUMPRODUCT) | `excel/client_interview_analysis.xlsx` |
-| Dashboard | Power BI and Tableau | `powerbi/PowerBI_build_guide.md` |
+| Dashboard | Python one-page dashboard (Power BI version in progress) | `dashboard/dashboard.png`, `src/dashboard.py`, `powerbi/PowerBI_build_guide.md` |
 | Presentation to the stakeholder | Slides | Presented to Dylan |
 
 ![Client journey process map](docs/client_journey_process_map.png)
