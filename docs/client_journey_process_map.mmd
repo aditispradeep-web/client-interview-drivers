@@ -1,0 +1,19 @@
+flowchart LR
+  A([Sign up<br/>80]) --> B{Active?}
+  B -- "No: 20 drop out" --> X1[[Lost before starting]]
+  B -- "Yes: 60" --> C[Add a job<br/>58]
+  C --> D[Build tailored CV<br/>55]
+  D --> E[Send application<br/>55 clients, 797 apps]
+  C -. "3 saved a job but never applied" .-> X2[[Stalled]]
+  E --> F{Follow up?}
+  F -- "Within 4 days" --> G[Follows up fast<br/>12.8 interviews per 100]
+  F -- "Never" --> H[Never follows up<br/>2.5 interviews per 100]
+  G --> I{Reply?}
+  H --> I
+  I -- "No reply: 517 apps" --> J[Day-14 check: under 5 apps<br/>and no follow-up = at risk]
+  I -- "Rejection: 200" --> J
+  I -- "Interview: 80" --> K([Interview<br/>40 clients])
+  J -. "coach check-in" .-> E
+  classDef drop fill:#F6E3D3,stroke:#B5651D,color:#4A2A0E;
+  classDef good fill:#DCEFF4,stroke:#2F6F8F,color:#16263A;
+  class X1,X2,H drop; class G,K good;
