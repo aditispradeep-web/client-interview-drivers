@@ -1,7 +1,7 @@
 # How to talk about this project in an interview
 
 ## The 60-second version
-"I did a practice project for a career coaching business. The question was which job-search habits lead to interviews, and how to spot clients who are about to go quiet. I built an example data set of 80 clients, cleaned it in Python, built a funnel dashboard in Power BI, and fitted a simple model on first-two-week behaviour. The main findings: a third of sign-ups never sent a first application, and clients who followed up within 4 days got about five times the interview rate of clients who never followed up. CV quality mattered more than volume. I recommended a 48-hour first-application target, earlier follow-up prompts, and a day-14 check-in rule that would have caught 15 of the 16 clients who went quiet."
+"I did a practice project for a career coaching business. The question was which job-search habits lead to interviews, and how to spot clients who are about to go quiet. I built an example data set of 80 clients, cleaned it in Python and SQL, built a one-page funnel dashboard (a Power BI version is in progress), and fitted a simple model on first-two-week behaviour. The main findings: a third of sign-ups never sent a first application, and clients who followed up within 4 days got about five times the interview rate of clients who never followed up. CV quality mattered more than volume. I recommended a 48-hour first-application target, earlier follow-up prompts, and a day-14 check-in rule that would have caught 15 of the 16 clients who went quiet."
 
 ## Questions you will probably get
 
@@ -19,18 +19,21 @@
 
 ## Where it goes on your CV
 In a **Projects** section, never under work experience:
-> **What makes a client land interviews** (practice project, example data). Python, SQL, Excel, Power BI, Jira. Wrote the BRD and user stories, built a funnel dashboard and a day-14 early-warning model for client drop-off. Found that follow-up within 4 days was associated with about 5x the interview rate. Recommended 3 product changes. github.com/…
+> **What makes a client land interviews** (practice project, example data). Python, SQL, Excel, Jira. Wrote the BRD and user stories, built a funnel dashboard and a day-14 early-warning model for client drop-off. Found that follow-up within 4 days was associated with about 5x the interview rate. Recommended 3 product changes. github.com/aditispradeep-web/client-interview-drivers
+>
+> Add Power BI to this line only once the Power BI version is built.
 
-## LinkedIn post (draft, edit before posting)
+## LinkedIn post (as published)
 > I've just finished a practice business analysis project: what makes a job seeker land interviews?
 > Using an example data set of 80 clients (made-up numbers, built from a real business brief), I worked through it end to end, the way a BA would:
 > • Requirements in a BRD, with a process map of the client journey
 > • A Jira backlog of user stories with acceptance criteria
 > • Data cleaning and analysis in Python and SQL, plus an Excel model
-> • A Power BI dashboard, and a simple model that flags clients at risk of going quiet
+> • A one-page dashboard (Power BI version in progress), and a simple model that flags clients at risk of going quiet
 > Three things stood out:
 > 1. A third of sign-ups never sent a first application. That's the biggest drop-off.
 > 2. Following up within 4 days was linked to about 5x the interview rate of never following up.
 > 3. CV match quality mattered more than application volume.
-> Everything is on GitHub: [link]. Thanks to Dylan Corrigan for the brief and feedback.
+> Everything is on GitHub: https://github.com/aditispradeep-web/client-interview-drivers
+> Thanks to Dylan Corrigan for the brief and feedback.
 > #BusinessAnalysis #DataAnalytics #PowerBI #SQL #Jira #Python
